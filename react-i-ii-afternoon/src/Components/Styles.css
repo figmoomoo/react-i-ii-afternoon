@@ -1,0 +1,44 @@
+.App{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(71, 168, 233);
+    padding-left: 90px;
+    padding-top: 10px;
+}
+
+.Main{
+    height: 500px;
+    width: 700px;
+    background-color: rgb(236, 236, 236);
+    margin-top: 100px;
+    padding-left: 80px;
+}
+
+.Info{
+    display: flex;
+    flex-direction: column;
+}
+
+p1{
+    font-size: 18px;
+}
+
+.From{
+    flex-direction: row;
+}
+
+.id{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 40px;
+}
